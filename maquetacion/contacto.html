@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body style="margin: 0">
+    <div id="navbar">
+      <div id="navbar-left">
+        <img src="technology-with-purpose.svg" />
+      </div>
+      <div id="navbar-right">
+        <p>Nosotros</p>
+        <p>Programas</p>
+        <p>Capacitaciones</p>
+        <p>Alianzas</p>
+        <p>Contacto</p>
+        <button>Sumate +</button>
+      </div>
+    </div>
+    <h4>Home >> Contacto</h4>
+    <h1>Contactanos</h1>
+    <h3>
+      Si queres conocer más información sobre la Fundación Technology with
+      Purpose, alguno de sus programas o capacitaciones, por favor complete el
+      formulario a continuación.
+    </h3>
+    <div id="contact-form">
+      <form action="">
+        <div id="firstrow-form">
+          <input
+            class="input-contact"
+            type="text"
+            placeholder="Nombre y Apellido"
+            required="true"
+          />
+          <input
+            class="input-contact"
+            type="email"
+            placeholder="Email"
+            required="true"
+          />
+          <select class="input-contact" name="" id="">
+            <option value="">Programas</option>
+            <option value="">Capacitaciones</option>
+          </select>
+        </div>
+
+        <textarea
+          id="textarea-contact"
+          cols="40"
+          minlength="0"
+          rows="4"
+          tabindex=""
+          name="mensaje"
+          required="true"
+          aria-required="true"
+          placeholder="Consulta / Mensaje*"
+          data-holds-private-data="false"
+        ></textarea>
+        <button>Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>
